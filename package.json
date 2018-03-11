@@ -1,0 +1,33 @@
+{
+  "name": "wordpress-action-filter-documentation-generator-nodejs",
+  "version": "1.0.0",
+  "description": "Npm global module that generate the documentation for all actions and filters present in current directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holocronIT/wordpress-action-filter-documentation-generator-nodejs.git"
+  },
+  "bin": {
+    "generate-hooks-docs": "./index.js"
+  },
+  "keywords": [
+    "wordpress",
+    "action",
+    "filters",
+    "hook",
+    "documentation",
+    "generator"
+  ],
+  "author": "Holocron IT+",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holocronIT/wordpress-action-filter-documentation-generator-nodejs/issues"
+  },
+  "homepage": "https://github.com/holocronIT/wordpress-action-filter-documentation-generator-nodejs#readme",
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
